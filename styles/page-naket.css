@@ -1,0 +1,205 @@
+#page-naket{
+    background: var(--color-background);
+}
+ #page-naket .top-page .buttons-container img{
+     width: 8vw;
+     height: 8vw;
+     
+     border-radius: 10vw;
+     margin: 5vw;
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+
+     z-index: 999;
+     position: absolute;
+
+     cursor: pointer;
+ }
+
+ #page-naket .top-page .perna img{
+     width: 100vw;
+     height: 50vw;
+
+ }
+
+ #page-naket .top-page .top-bar{
+    background-color: var(--color-background);
+
+    z-index: 999;
+    position: relative;
+
+    margin: 15vw;
+
+    margin-top: -18vw;
+
+    border: none;
+ }
+
+ #page-naket .top-page .top-bar h1{
+     font: 700 4vw Archivo;
+
+     color: white;
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+    
+    -webkit-text-stroke-width:0.2vw;
+    -webkit-text-stroke-color:black;
+
+ }
+
+ #page-naket .top-page #fieldset{
+     display: center;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+
+ }
+
+ #page-naket .top-page #fieldset .field #infoDia{
+     width: 100vh;
+     height: 100vw;
+     color: white;
+
+     display: center;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+
+     font: 700 2vw Archivo;
+ }
+
+ #page-naket .top-page #fieldset .field #infoDia #dia{
+     width: 50vw;
+     height: 3vw;
+
+     display: center;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+ }
+
+ #page-naket .top-page #fieldset .field #infoHora{
+    width: 100vh;
+    height: 100vw;
+    color: white;
+
+    display: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    font: 700 2vw Archivo;
+ }
+
+ #page-naket .top-page #fieldset .field #infoHora .inputHora{
+    width: 50vw;
+    height: 3vw;
+
+    display: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#page-naket .top-page #fieldset #search{
+    width: 100vh;
+    height: 100vw;
+    color: white;
+
+    display: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    font: 700 3vw Archivo;
+}
+
+#page-naket .top-page #fieldset #search .buttonSearch{
+    width: 50vw;
+    height: 5vw;
+
+    display: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    color: white;
+    background-color: cornflowerblue;
+
+    cursor: pointer;
+}
+
+
+#page-naket .result #result .local {
+    justify-content: center;
+    align-content: center;
+
+    justify-items: center;
+    align-items: center;
+    
+    text-align: center;
+    
+    display: grid;
+    grid-template-columns: 2fr 3fr ;
+    grid-template-rows: 5vh 10vh 15vh 5vh;
+    grid-template-areas: "nameLocal dataHora"
+                        "img description"
+                        "img description"
+                        "img number";
+
+    grid-gap: 10px;
+
+    color: white;
+
+    
+
+    
+}
+#page-naket #form2 .result #result .local img{
+    height: 15vw;
+    
+    grid-area: img;
+
+    justify-items: center;
+    align-items: center;
+    
+    justify-content: center;
+    
+    text-align: center;
+   
+}
+
+#page-naket #form2 .result #result .local .nameLocal{
+    font-size: 3vw;
+
+    grid-area: nameLocal;
+
+
+}
+#page-naket #form2 .result #result .local .dataHora{
+    font-size: 1.5vw;
+    grid-area: dataHora;
+
+    justify-self: start;
+}
+
+#page-naket  #form2 .result #result .local .number{
+    font-size: 1vw;
+    grid-area: number;
+
+    justify-self: end;
+}
+
+#page-naket #form2 .result #result .local .description{
+    font-size: 2vw;
+    grid-area: description;
+
+    justify-self: start;
+    
+}

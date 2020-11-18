@@ -1,0 +1,61 @@
+:root{
+    /*variavies CSS*/
+    --color-background: #008080;
+    --color-pirmary-lighter: #66CDAA;
+    --color-primary-light: #00FF7F;
+    --color-primary: #2E8B57;
+    --color-primary-dark: #228B22;
+    --color-primary-darker: #006400;
+    --color-secondary: #02f871;
+    --color-secondary-dark: #039645;
+    --color-title-in-primary: #FFD700;
+    --color-text-in-primary: #FFA500;
+    --color-text-title: #817503;
+    --color-text-complement: #5F9EA0;
+    --color-text-base: #6A6180;
+    --color-line-in-white: #0648ff;
+    --color-input-background: #F8F8FC;
+    --color-button-text: #FFFFFF;
+    --color-box-base: #FFFFFF;
+    --color-box-footer: #FAFAFC;
+    --color-small-info: #C1BCCC;
+
+    /*tamanho da fonte padrao : 16px - 100% - 1rem*/
+    font-size: 60% /* controle das medidas rem*/
+}
+
+*{
+    margin: 0;
+    
+    padding: none;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100hv; /* heigth = altura */
+}
+
+body{
+    background-color: var(--color-background);
+    display: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+body,
+input,
+button,
+textarea{
+    /* font: 500 1.6rem Poppins; (posso por tudo junto) */
+    font-weight: 500;
+    font-family: Poppins;
+    font-size: 3rem;
+    color: var(--color-text-base);
+}
+@media (min-width: 700px){
+    :rot{
+        font-size: 62.5%;
+    }
+}

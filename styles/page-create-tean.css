@@ -1,0 +1,185 @@
+#page-create-tean.css #container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.top-page {
+    background-color: var(--color-background);
+}
+
+.buttons-container{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 999;
+    position: absolute;
+}
+
+.buttons-container img {
+    width: 8vw;
+    height: 8vw;
+    
+    border-radius: 10vw;
+    margin: 5vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    z-index: 999;
+    position: absolute;
+
+    cursor: pointer;
+}
+
+.top-page .reserva img {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.top-page .top-bar {
+    background-color: var(--color-background);
+
+    z-index: 999;
+    position: relative;
+
+    margin: 20vw;
+
+    margin-top: -18vw;
+
+    border: none;
+    
+    display: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.top-bar h1{
+    font: 700 4vw Archivo;
+
+     color: white;
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+    
+    -webkit-text-stroke-width:0.2vw;
+    -webkit-text-stroke-color:black;
+}
+
+.top-bar #form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background-color: var(--color-background);
+
+    z-index: 999;
+    position: relative;
+
+    margin-top: -0.2vw;
+
+    border: none;    
+
+   
+    
+}
+.top-bar #form #fieldset{
+    width: 1000vw;
+    
+    display: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.top-bar #form h2 {
+    color: white;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.top-bar .field #infoInputName {
+    color: white;
+    
+    display: grid;
+    align-items: center;
+}
+
+.top-bar .field #infoInputNumber {
+    color: white;
+    
+    display: grid;
+    align-items: center;
+
+}
+.top-bar .field #infoNameNeket{
+    color: white;
+    
+    display: grid;
+    align-items: center;
+}
+
+
+.top-bar .field #infoImage {
+    color: white;
+    
+    display: center;
+    align-items: center;
+
+}
+
+.top-bar .field #infoImage .image{
+    color: grey;
+}
+
+.top-bar .field #infoDate{
+    color: white;
+    
+    display: center;
+    align-items: center;
+}
+
+
+.top-bar .field #infoDescription {
+    color: white;
+    
+    display: grid;
+    align-items: center;
+
+}
+
+.top-bar .field #infoSubmit { 
+    display: grid;
+    align-items: center;
+}
+
+.top-bar .field #infoSubmit .submit{
+    color: white;
+
+    background-color: cornflowerblue;
+
+    cursor: pointer;
+}
+
+
+
+
+
+
